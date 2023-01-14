@@ -2,6 +2,7 @@ function SocialMediaIcons() {
     return(
         <div>
         <p class="OrSignApps"> Or Sign Up With </p>
+        <p>Test</p>
 
                 <img src="../static/google.png" alt="google" class="signInWith" onclick="hoverGoogle(this);" onmouseout="unhoverGoogle(this);"></img>
                 <img src="../static/facebook.png" alt="facebook" class="signInWith" onclick="hoverFacebook(this);" onmouseout="unhoverFacebook(this);"></img>
