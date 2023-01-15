@@ -1,4 +1,4 @@
-import "./LearnTopics.css"
+import "./EducationComponents.css"
 
 function LearnTopics(){
     return(

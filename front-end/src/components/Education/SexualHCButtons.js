@@ -1,4 +1,4 @@
-import "./SexualHCButtons.css"
+import "./EducationComponents.css"
 
 function SexualHCButtons(){
     return(

@@ -1,4 +1,4 @@
-import "./GenderIcons.css"
+import "./EducationComponents.css"
 
 function GenderIcons(){
     return(

@@ -1,4 +1,4 @@
-import "./ContentLectures.css"
+import "./EducationComponents.css"
 
 function ContentLectures(){
     return(

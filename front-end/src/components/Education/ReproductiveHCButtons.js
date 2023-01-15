@@ -1,4 +1,4 @@
-import "./ReproductiveHCButtons.css"
+import "./EducationComponents.css"
 
 function ReproductiveHCButtons(){
     return(
