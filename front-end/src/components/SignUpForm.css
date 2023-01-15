@@ -1,0 +1,6 @@
+img {
+  margin-top:1em;
+}
+#signUp_password, #signUp_email, #signUp_lastName, #signUp_firstName {
+	margin: 0.5em;
+}

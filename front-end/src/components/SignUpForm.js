@@ -1,13 +1,10 @@
-import "./SignInForm.css"
+import "./SignUpForm.css"
 import SocialMediaIcons from "./SocialMediaIcons"
 
 function SignUpForm(){
     return(
     <div className="signUp_container">
         <div className="Body">
-            <div className="Title">
-                Create New Account
-            </div>
             <div className="changeLog">
                 <p>Already Registered?    <a href="./SignIn.html">     LogIn</a></p>
                 

@@ -7,13 +7,15 @@ import NavigationButtons from "../components/NavigationButtons"
 function Home(){
     return(
         <div>
-            <img src="logo.svg"></img>
+            <img src="logo.svg" />
+            {/*<HomeButtons />*/} 
+            {/*<SignInForm />*/} 
+            {/*<SignUpForm />*/} 
+            {/*<NavigationButtons />*/}             
+
             
-            {/* Insert a routing between the components below */}
-            <HomeButtons />
-            <SignInForm />
-            <SignUpForm />
-            <NavigationButtons />
+            
+            
         </div>
     )
 }
