@@ -2,12 +2,11 @@ import {Route, Routes} from 'react-router-dom'
 import './App.css';
 import Home from './views/Home';
 import Education from './views/Education';
-import Map from './views/Map';
 import Crossword from './views/Crossword';
 import SignInForm from './components/SignInForm'
 import SignUpForm from './components/SignUpForm'
 import NavigationButtons from './components/NavigationButtons'
-
+import Map from './views/Map';
 
 
 function App() {
