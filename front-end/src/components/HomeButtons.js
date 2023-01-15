@@ -3,8 +3,8 @@ import "./HomeButtons.css"
 function HomeButtons(){
     return(
         <div>
-            <button className="sign-in-button">Sign in</button>
-            <button className="sign-up-button">Sign up</button>
+            <button className="home-button">Sign in</button>
+            <button className="home-button">Sign up</button>
         </div>
     )
 }
