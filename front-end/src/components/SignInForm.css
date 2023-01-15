@@ -1,0 +1,7 @@
+.Title, .Body {
+	text-align: center;
+}
+
+#signIn_password{
+	margin: 1em;
+}

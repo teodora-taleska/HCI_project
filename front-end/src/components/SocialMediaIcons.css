@@ -1,0 +1,18 @@
+.OrSignApps {
+	text-align: center;
+}
+
+.fa-google-plus-square {
+	margin-left: 3.5em;
+}
+
+.fa-facebook-square, .fa-linkedin-square, .fa-twitter-square {
+  margin-left: 1em;
+}
+
+.SocialIcons {
+	width: 100%;
+	margin-top:1em;
+	margin-bottom: 2em;
+}
+

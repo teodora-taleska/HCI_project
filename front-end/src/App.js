@@ -3,11 +3,12 @@ import Home from './views/Home';
 import Education from './views/Education';
 
 
+
 function App() {
   return (
     <div className="App">
       {/* <Home /> */}
-      <Education />
+      <Education /> 
     </div>
   );
 }

@@ -1,0 +1,8 @@
+#txtfaqs, #faqs {
+	text-align: center;
+}
+
+#female, #male, #other {
+	padding: 1.5em;
+	border-radius: 50px;
+}
