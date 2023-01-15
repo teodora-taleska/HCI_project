@@ -1,14 +1,13 @@
 import "./Home.css"
 import SignInForm from "../components/SignInForm"
 import SignUpForm from "../components/SignUpForm"
+import HomeButtons from "../components/HomeButtons"
 
 function Home(){
     return(
         <div>
             <img src="logo.svg"></img>
-            <button>Sign in</button>
-            <button>Sign up</button>
-
+            <HomeButtons />
             <SignInForm />
             <SignUpForm />
         </div>

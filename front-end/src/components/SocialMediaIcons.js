@@ -1,3 +1,5 @@
+import "./SocialMediaIcons.css"
+
 function SocialMediaIcons() {
     return(
         <div>
