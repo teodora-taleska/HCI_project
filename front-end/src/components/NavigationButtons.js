@@ -1,11 +1,13 @@
+import { Link } from "react-router-dom"
 import "./HomeButtons.css"
 
 function NavigationButtons(){
     return(
         <div>
-            <button className="home-button3">LEARN</button>
-            <button className="home-button4">NEAR ME</button>
-            <button className="home-button5">PRACTICE</button>
+            <img src="logo.svg" />
+            <Link to="/education"><button className="home-button3">LEARN</button></Link>
+            <Link to="/map"><button className="home-button4">NEAR ME</button></Link>
+            <Link to="/crossword"><button className="home-button5">PRACTICE</button></Link>
         </div>
     )
 }
