@@ -1,0 +1,52 @@
+.cat2 {
+    margin-bottom: -80px;
+}
+
+.crossword-nav{
+    box-shadow: 1px 3px 7px rgb(196, 196, 196);
+}
+
+.right {
+    color: #2e357dff;
+    position: absolute;
+    right:15px;
+    top: 75px;
+}
+
+.right:hover{
+    color: rgb(20, 4, 99);
+}
+
+.c-buttons{
+    width: 200px;
+    height:100px
+}
+
+#c-b{
+    margin-top: 50px;
+}
+
+.fa-arrow-circle-o-down{
+    position: absolute;
+    top: 120px;
+    left: 110px;
+    color: #2e357dff;
+}
+#all-puzzles{
+    margin-top: 9px;
+}
+
+
+.game-button-active:hover{
+    background-color: rgb(16, 150, 177);
+}
+
+.game-button-passive{
+    background-color: rgb(96, 102, 107);
+    color: rgb(153, 153, 153);
+
+}
+.game-button-passive:hover{
+    box-shadow: none;
+    cursor: default;
+}

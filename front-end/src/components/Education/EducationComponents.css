@@ -63,6 +63,8 @@
 }
 
 #learnwbutton {
+	position: relative;
+	top:4px;
 	text-align: right;
 	margin:0;
 	display: inline;
