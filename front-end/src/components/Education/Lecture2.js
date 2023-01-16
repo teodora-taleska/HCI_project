@@ -1,11 +1,14 @@
+import NavBar from "../NavBar"
 import "./EducationComponents.css"
+import { Link } from "react-router-dom"
 
 function Lecture2(){
     return(
         <div>
+            <NavBar/>
             <div className="lectureTitle">
                 <div>
-                    <i className="fa fa-arrow-left"></i>
+                <Link to="/education/learnTopics/content/Lecture1"><i className="fa fa-arrow-left"></i></Link>
                     <h3 className="lecture1">Lecture 2</h3>
                     <i className="fa fa-arrow-right"></i>
                 </div>

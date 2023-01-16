@@ -29,7 +29,7 @@
 	right: 15px;
 }
 
-i:hover{
+.rf:hover, .fa-home:hover{
 	color: rgb(3, 14, 70);
 	cursor:pointer;
 }

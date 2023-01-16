@@ -1,13 +1,16 @@
+import NavBar from "../NavBar"
 import "./EducationComponents.css"
+import { Link } from "react-router-dom"
 
 function Lecture1(){
     return(
         <div>
+            <NavBar/>
             <div className="lectureTitle">
                 <div>
-                    <i className="fa fa-arrow-left"></i>
+                <Link to="/education/learnTopics/content"><i className="fa fa-arrow-left"></i></Link>
                     <h3 className="lecture1">Lecture 1</h3>
-                    <i className="fa fa-arrow-right"></i>
+                    <Link to="/education/learnTopics/content/Lecture2"><i className="fa fa-arrow-right"></i></Link>
                 </div>
                 <div>
                     <h4 id="subtitle1">What goes on during your monthly cycle</h4>
@@ -24,7 +27,7 @@ function Lecture1(){
                 Rising estrogen also has a slight appetite-suppressing effect, which makes it a bit easier to eat smaller portions and opt for healthier foods.
                 You may find that chronic or recurring health issues, such as asthma, eczema and irritable bowel syndrome, crop up at the start of your Week 1. This is because, even though your estrogen level is climbing daily, you still start out with a relatively low level of this hormone. However, as estrogen continues to climb throughout this week, symptoms generally lessen.</p>
 
-                <img src="sex-hormones.png" />
+                <img src="sex-hormones.png" alt="Loading..."/>
 
                 <p className="lectures">During your Week 1, estrogen starts out at its lowest point and begins a steady climb. For the first day or so of this cycle week, the low level of this hormone combined with period-related aches and fatigue may make you a bit quiet and have you preferring to stay close to home.
                 However, as estrogen rises throughout this cycle week, this hormone will be boosting your mood, energy and patience and ratcheting up your desire for adventure and to socialize.

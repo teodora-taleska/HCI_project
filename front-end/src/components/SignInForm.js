@@ -19,7 +19,7 @@ function SignInForm () {
                         <form id="SignIn_form" action="" method=""> 
                             <input type="email" required id="signIn_email" name="SignInEmail" className="input" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" />
                             <input type="password" required id="signIn_password" className="input" name="SignInPassword" placeholder="Password" />
-                            <Link to="/nav-buttons"><button type="submit" className="SignIn_button">Sign In</button></Link>
+                            <Link to="/nav-buttons"><button type="submit" className="SignIn_button buttons3">Sign In</button></Link>
                         </form>
                     </div>
                 </div>

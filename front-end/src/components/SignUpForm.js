@@ -17,7 +17,7 @@ function SignUpForm(){
                     <input type="text" required id="signUp_lastName" name="SignUpLastName" className="input" placeholder="Last Name" />
                     <input type="email" required id="signUp_email" name="SignInEmail" className="input" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" />
                     <input type="password" required id="signUp_password" name="SignUnPassword" className="input" placeholder="Password" />
-                    <Link to="/sign-in"><button type="submit" className="SignUp_button">Sign Up</button></Link>
+                    <Link to="/sign-in"><button type="submit" className="SignUp_button buttons3">Sign Up</button></Link>
                 </form>
                
             </div>
