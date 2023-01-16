@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom"
 import "./SignUpForm.css"
 import SocialMediaIcons from "./SocialMediaIcons"
 
 function SignUpForm(){
     return(
     <div className="signUp_container">
+        <img src="logo.svg" />
         <div className="Body">
             <div className="changeLog">
-                <p>Already Registered?    <a href="./SignIn.html">     LogIn</a></p>
+                <p>Already Registered?    <Link to="/sign-in">Log in</Link></p>
                 
             </div>
             <div id="form_sign-in" className="info">
@@ -15,7 +17,7 @@ function SignUpForm(){
                     <input type="text" required id="signUp_lastName" name="SignUpLastName" className="input" placeholder="Last Name" />
                     <input type="email" required id="signUp_email" name="SignInEmail" className="input" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" />
                     <input type="password" required id="signUp_password" name="SignUnPassword" className="input" placeholder="Password" />
-                    <button type="submit" className="SignUp_button">Sign Up</button>
+                    <Link to="/sign-in"><button type="submit" className="SignUp_button">Sign Up</button></Link>
                 </form>
                
             </div>
