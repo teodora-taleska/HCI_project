@@ -3,6 +3,7 @@
 .fa-map-marker,
 .fa-book,
 .fa-user {
+	position: relative;
 	color: #2e357dff;
 	margin-left: 0.5em;
 	margin-top: 0.5em;
@@ -18,5 +19,17 @@
 }
 
 #navbardiv {
-	background-color: #f8eee8ff;
+	background-color: rgba(253, 243, 236, 0.725);
+}
+
+
+#right-icons {
+	position: absolute;
+	top: 3px;
+	right: 15px;
+}
+
+i:hover{
+	color: rgb(3, 14, 70);
+	cursor:pointer;
 }

@@ -1,0 +1,19 @@
+#originId, #destinationId {
+    width: 70px;
+    margin-bottom: none;
+    margin: none;
+    padding: none;
+}
+
+#routeButton{
+    width: 70%;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    right: 3%;
+}
+
+#routebox {
+    width: 300px;
+    height: 85px;
+}
