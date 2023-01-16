@@ -1,0 +1,22 @@
+
+.fa-th,
+.fa-map-marker,
+.fa-book,
+.fa-user {
+	color: #2e357dff;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.fa-home {
+	color: #2e357dff;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-right: 6em;
+}
+
+#navbardiv {
+	background-color: #f8eee8ff;
+}

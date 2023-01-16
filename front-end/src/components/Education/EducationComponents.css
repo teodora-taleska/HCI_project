@@ -1,8 +1,147 @@
-#txtfaqs, #faqs {
+#txtfaqs {
 	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	font-size: 2em;
+	color: #2e357dff;
 }
 
 #female, #male, #other {
 	padding: 1.5em;
 	border-radius: 50px;
+}
+
+#male, #female, #other {
+	background-color: #2e357dff;
+}
+
+#male:hover {
+	background-color: #767ad9ff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#female:hover {
+	background-color: #fec299ff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#other:hover {
+	background-color: #97f587ff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#faqslink {
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	display: block;
+}
+
+#faqslink2 {
+	margin-top: 3em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	display: block;
+}
+
+
+
+.fa-arrow-left {
+	padding: 0.2em;
+	color: #2e357dff;
+}
+
+.learnTitle {
+	margin-top: 2em;
+}
+#arrowbutton {
+	width: 12%;
+	margin:0;
+	display: inline;
+	background-color: white;
+}
+
+#learnwbutton {
+	text-align: right;
+	margin:0;
+	display: inline;
+	color:#2e357dff;
+}
+
+#cat {
+	padding-left: 3em;
+	padding-bottom: 8em;
+		color:#2e357dff;
+}
+
+.reproductive-categories {
+	div-align:centre;
+}
+
+.buttons3 {
+	width: 50%;
+}
+
+.readLectureButton, .lectureTime {
+	display: inline;
+	margin: 0;
+}
+
+.Lecture {
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	margin-left: 3em;
+	margin-right: 3em;
+	border-radius: 8px;
+	background-color: #ecececff;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+.readLectureButton {
+	margin-left: 1em;
+	padding: 0.5em;
+	background-color: #999999ff;
+	float: right;
+
+}
+
+.subtitle {
+	margin-bottom: 4em;
+	color:#2e357dff;
+	margin-left: 3em;
+}
+
+.lectures {
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	background-color: #f2f2f2ff;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+.lectureButton, .lecture1 {
+	display: inline;
+	margin: 0;
+}
+
+.lectureTitle {
+	margin-top: 2em;
+	padding-left: 3em;
+	margin-bottom: 2em;
+}
+
+.fa-arrow-right {
+	color: #2e357dff;
+}
+
+.lecture1 {
+	margin-left: 3em;
+	margin-right: 3em;
+	text-align: center;
+}
+
+#subtitle1 {
+	margin-top: 1em;
 }

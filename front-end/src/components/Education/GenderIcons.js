@@ -3,18 +3,14 @@ import "./EducationComponents.css"
 function GenderIcons(){
     return(
         <div>
-            <h5 id="txtfaqs">Learn</h5>
+            <p id="txtfaqs"><b>Learn</b></p>
 
             <button id="female"><i class="fa fa-venus fa-4x" aria-hidden="true"></i></button>
             <button id="male"><i class="fa fa-mars fa-4x" aria-hidden="true"></i></button>
             <button id="other"><i class="fa fa-transgender fa-4x" aria-hidden="true"></i></button>
-
-            <div className="learnTitle">
-                <button><i className="fa fa-arrow-left" hidden={true}></i></button>
-                <h3>Learn</h3>
+<div id="faqslink">
+            <a id="faqslink2" href="#">FAQs</a>
             </div>
-
-            <a id="faqs" href="#">FAQs</a>
         </div>
     )
 }

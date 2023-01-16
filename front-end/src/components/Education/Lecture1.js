@@ -5,17 +5,17 @@ function Lecture1(){
         <div>
             <div className="lectureTitle">
                 <div>
-                    <button><i className="fa fa-arrow-left" hidden={true}></i></button>
-                    <h3>Lecture 1</h3>
-                    <button><i className="fa fa-arrow-right" hidden={true}></i></button>
+                    <i className="fa fa-arrow-left"></i>
+                    <h3 className="lecture1">Lecture 1</h3>
+                    <i className="fa fa-arrow-right"></i>
                 </div>
                 <div>
-                    <h4>What goes on during your monthly cycle</h4>
+                    <h4 id="subtitle1">What goes on during your monthly cycle</h4>
                 </div>               
             </div>
 
             <div>
-                <p>During your Week 1, estrogen starts out at its lowest point and begins a steady climb. For the first day or so of this cycle week, the low level of this hormone combined with period-related aches and fatigue may make you a bit quiet and have you preferring to stay close to home.
+                <p className="lectures">During your Week 1, estrogen starts out at its lowest point and begins a steady climb. For the first day or so of this cycle week, the low level of this hormone combined with period-related aches and fatigue may make you a bit quiet and have you preferring to stay close to home.
                 However, as estrogen rises throughout this cycle week, this hormone will be boosting your mood, energy and patience and ratcheting up your desire for adventure and to socialize.
                 You become more and more optimistic and motivated, your verbal skills and memory improve and it’s easier to absorb new facts and learn new skills.
                 For some women, these hormone-fueled benefits kick in quickly; for others it takes a few days or longer. It depends on your personal sensitivity to hormone fluctuations as well as if you’re eating enough iron-rich foods to make up for iron loss as you bleed during menstruation. (When iron dips, it can trigger fatigue, fogginess and a down mood. If you’re not getting enough iron in your diet, ask your healthcare provider if you can take an iron supplement.)
@@ -26,7 +26,7 @@ function Lecture1(){
 
                 <img src="sex-hormones.png" />
 
-                <p>During your Week 1, estrogen starts out at its lowest point and begins a steady climb. For the first day or so of this cycle week, the low level of this hormone combined with period-related aches and fatigue may make you a bit quiet and have you preferring to stay close to home.
+                <p className="lectures">During your Week 1, estrogen starts out at its lowest point and begins a steady climb. For the first day or so of this cycle week, the low level of this hormone combined with period-related aches and fatigue may make you a bit quiet and have you preferring to stay close to home.
                 However, as estrogen rises throughout this cycle week, this hormone will be boosting your mood, energy and patience and ratcheting up your desire for adventure and to socialize.
                 You become more and more optimistic and motivated, your verbal skills and memory improve and it’s easier to absorb new facts and learn new skills.
                 For some women, these hormone-fueled benefits kick in quickly; for others it takes a few days or longer. It depends on your personal sensitivity to hormone fluctuations as well as if you’re eating enough iron-rich foods to make up for iron loss as you bleed during menstruation. (When iron dips, it can trigger fatigue, fogginess and a down mood. If you’re not getting enough iron in your diet, ask your healthcare provider if you can take an iron supplement.)
