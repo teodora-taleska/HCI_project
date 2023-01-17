@@ -1,5 +1,22 @@
 .cat2 {
-    margin-bottom: -80px;
+  margin-left: 20px;
+  margin-right:20px;
+  margin-bottom: 30px;
+}
+
+#sure {
+    margin-left: 95px;
+    color: blue;
+}
+
+.PuzzleSub{
+    margin-left: 20px;
+    color: blue;
+    padding-top: 3px;
+}
+
+#emptySpace {
+    padding: 30px;
 }
 
 .crossword-nav{
@@ -28,14 +45,21 @@
 
 .fa-arrow-circle-o-down{
     position: absolute;
-    top: 120px;
+    top: 130px;
     left: 110px;
     color: #2e357dff;
 }
 #all-puzzles{
-    margin-top: 9px;
+    margin-top: 20px;
 }
 
+.game-button-active {
+    margin: 0;
+    margin-left: 25px;
+    margin-top: 20px;
+    display: inline;
+
+}
 
 .game-button-active:hover{
     background-color: rgb(16, 150, 177);
@@ -44,9 +68,17 @@
 .game-button-passive{
     background-color: rgb(96, 102, 107);
     color: rgb(153, 153, 153);
+    margin-left: 23px;
+
+    display: inline;
 
 }
 .game-button-passive:hover{
     box-shadow: none;
     cursor: default;
+}
+
+#PracticeTitle {
+    color: #003eaa;
+    margin-bottom: 5em;
 }

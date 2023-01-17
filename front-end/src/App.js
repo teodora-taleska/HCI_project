@@ -20,6 +20,7 @@ import C_Levels_normal from './components/Crossword/C_Levels_normal'
 import C_Levels_themed from './components/Crossword/C_Levels_themed'
 import C_Game from './components/Crossword/C_Game';
 import C_Feedback from './components/Crossword/C_Feedback';
+import C_Question from './components/Crossword/C_Question';
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
 
         <Route path='/crossword/game' element={ <C_Game/> } />
         <Route path='/crossword/game/feedback' element={ <C_Feedback/> } />
+        <Route path='/crossword/game/ask' element={ <C_Question/> } />
 
 
 
