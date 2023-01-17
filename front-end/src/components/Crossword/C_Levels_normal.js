@@ -12,7 +12,7 @@ function C_Levels_normal(){
                 <i class="fa fa-star right" aria-hidden="true">5</i>
             </div>
             <div id="all-puzzles">
-                   <p id="cat">All puzzles</p> 
+                   <p className="PuzzleSub">All puzzles</p> 
                    <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
             </div>
             <div id="levels">

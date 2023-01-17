@@ -11,10 +11,12 @@ function C_Levels_themed(){
                 <i class="fa fa-star right" aria-hidden="true">5</i>
             </div>
             <div id="all-puzzles">
-                   <p id="cat">All puzzles</p> 
+                   <p className="PuzzleSub">All puzzles</p> 
                    <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
             </div>
             <div id="levels">
+
+
             <Link to="/crossword/game"><button className="game-button-active">
                     <i class="fa fa-table " aria-hidden="true"></i>
                     <i class="fa fa-pencil" aria-hidden="true"></i>
@@ -51,11 +53,7 @@ function C_Levels_themed(){
                     <h6>Diseases 0/19</h6>
                 </button>
 
-                <button className="game-button-passive">
-                    <i class="fa fa-table " aria-hidden="true"></i>
-                    <i class="fa fa-pencil" aria-hidden="true"></i>
-                    <h6>Diseases 0/19</h6>
-                </button>
+ 
 
                 <button className="game-button-passive">
                     <i class="fa fa-table " aria-hidden="true"></i>
@@ -75,6 +73,8 @@ function C_Levels_themed(){
                     <h6>Diseases 0/19</h6>
                 </button>
 
+
+
                 <button className="game-button-passive">
                     <i class="fa fa-table " aria-hidden="true"></i>
                     <i class="fa fa-pencil" aria-hidden="true"></i>
@@ -86,6 +86,15 @@ function C_Levels_themed(){
                     <i class="fa fa-pencil" aria-hidden="true"></i>
                     <h6>Diseases 0/19</h6>
                 </button>
+
+                <button className="game-button-passive">
+                    <i class="fa fa-table " aria-hidden="true"></i>
+                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                    <h6>Diseases 0/19</h6>
+                </button>
+
+
+
             </div>
         </div>
     )
