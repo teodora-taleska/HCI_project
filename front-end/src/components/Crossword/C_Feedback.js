@@ -6,11 +6,13 @@ function C_Feedback(){
     return (
         <div>
             <NavBar/>
-            <div className="crossword-nav">
-                <Link to="/crossword/game"><button id="arrowbutton"><i class="fa fa-arrow-left" aria-hidden="true"></i> </button></Link>
-                <h3 id="learnwbutton"><b>Feedback</b></h3>
-                <i class="fa fa-star right" aria-hidden="true">5</i>
-            </div>
+                        <div id="emptySpace"></div>
+                                    <div id="emptySpace"></div>
+            <h5 className="cat2" id="PracticeTitle"><b>Your final score is 47/100</b></h5>
+            <p  className="cat2">These are the topics where further practice is needed.</p>
+            <p  className="cat2">- Lecture 1</p>
+            <div id="emptySpace"></div>
+            <Link to="/education/learnTopics/content/Lecture1"><button>Learn More</button></Link>
         </div>
     )
 }
