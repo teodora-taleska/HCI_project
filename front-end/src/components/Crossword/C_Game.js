@@ -63,7 +63,7 @@ function C_Game(){
                 <i class="fa fa-star right" aria-hidden="true">5</i>
             </div>
          <Crossword data={data} />;
-         <Link to="/crossword/game/ask"><button>Submit</button></Link>
+         <Link to="/crossword/game/ask"><button >Submit</button></Link>
         </div>
         )
 }

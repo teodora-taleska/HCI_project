@@ -9,6 +9,7 @@ const cors= require('cors')
 dotenv.config()
 mongoose.connect(process.env.DATABASE_ACCESS, () => console.log("Database connected"))
 
+
 // with this line of code we activated body parser in our app
 app.use(express.json())
 app.use(cors())

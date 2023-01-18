@@ -13,6 +13,7 @@ const signUpTemplate = new mongoose.Schema(
     email:{
         type: String,
         required: true,
+        unique:true
     },
     password:{
         type: String,
@@ -23,9 +24,7 @@ const signUpTemplate = new mongoose.Schema(
         default: Date.now
     }
 },
-{
- collection: 'mytables'
-}
+
 )
 
 module.exports = mongoose.model('myTable', signUpTemplate)

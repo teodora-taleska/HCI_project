@@ -58,7 +58,7 @@ import axios from 'axios'
         
         axios.post('http://localhost:4000/sign-up', registered)
         .then(response => console.log(response.data))
-
+        alert("You are successfully signed in!")
         // window.location = '/sign-in'
         this.setState({
             firstName: '',
