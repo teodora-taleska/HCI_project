@@ -55,10 +55,17 @@ import axios from 'axios'
             password: this.state.password
         }
 
+        
         axios.post('http://localhost:4000/sign-up', registered)
         .then(response => console.log(response.data))
 
-        window.location = '/sign-in'
+        // window.location = '/sign-in'
+        this.setState({
+            firstName: '',
+            lastName: '',
+            email: '',
+            password: ''
+        })
     }
 
     render(){
@@ -71,7 +78,7 @@ import axios from 'axios'
                 
             </div>
             <div id="form_sign-in" className="info">
-                <form onSubmit={this.onSubmit} id="SignIn_form" className="" method=""> 
+                <form onSubmit={this.onSubmit} id="SignIn_form"> 
                     <input onChange={this.changeFirstName} 
                     value={this.state.firstName}
                     type="text" required 
@@ -94,7 +101,7 @@ import axios from 'axios'
                     value={this.state.password}
                      type="password" required id="signUp_password" name="SignUnPassword" className="input" placeholder="Password" />
                     
-                    <Link to="/sign-in"><button type="submit" className="SignUp_button buttons3">Sign Up</button></Link>
+                    <button onClick={this.onSubmit} type="submit" className="SignUp_button buttons3" > Sign up</button> 
                 </form>
                
             </div>

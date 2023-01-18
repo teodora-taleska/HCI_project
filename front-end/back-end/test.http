@@ -2,8 +2,8 @@ POST http://localhost:4000/sign-up
 Content-Type: application/json
 
 {
-    "firstName": "Teodora",
-    "lastName": "Taleska",
-    "email" : "teodora.taleska@mail.com",
+    "firstName": "Ane",
+    "lastName": "Talska",
+    "email" : "ane@mail.com",
     "password" : "passpass"
 }
