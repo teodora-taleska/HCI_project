@@ -34,5 +34,5 @@ Download the source code
 See [Configuration Reference](https://create-react-app.dev/docs/advanced-configuration/).
 
 
-#Link to the concept video:
-Click [here](https://youtu.be/-LyEVBOsDs8)
+#Link to the prototype video:
+Click [here](https://youtu.be/JEVIl0_Dbi8)
