@@ -46,7 +46,6 @@ Equalita Care is intended to offer the following functionalities:
 
 To access Equalita Care, follow these steps:
 
-1. Clone the repository from GitLab:
    ```bash
    git clone https://gitlab.com/taleskateodora/hci_project.git
 
