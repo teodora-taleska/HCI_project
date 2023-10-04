@@ -59,10 +59,10 @@ To access Equalita Care, follow these steps:
    cd ..
    npm start
 
-```
+
 
 Enjoy using Equalita Care and contributing to the mission of achieving gender equality and empowering women and girls globally!
 
 
-#Link to the prototype video:
+## Link to the prototype video:
 Click [here](https://youtu.be/JEVIl0_Dbi8)
