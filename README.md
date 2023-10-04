@@ -64,4 +64,4 @@ Enjoy using Equalita Care and contributing to the mission of achieving gender eq
 
 
 ## Prototype
-Link to the prototype video: click [here](https://youtu.be/JEVIl0_Dbi8)
+Link to the prototype [video](https://youtu.be/JEVIl0_Dbi8)
