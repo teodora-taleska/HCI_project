@@ -6,7 +6,9 @@
 - Problem Statement
 - Application Overview
 - Functionalities
+- Prerequisites
 - Installation
+- Link to the prototype video
 
 ## Introduction
 
