@@ -8,7 +8,7 @@
 - Functionalities
 - Prerequisites
 - Installation
-- Link to the prototype video
+- Prototype
 
 ## Introduction
 
@@ -63,5 +63,5 @@ To access Equalita Care, follow these steps:
 Enjoy using Equalita Care and contributing to the mission of achieving gender equality and empowering women and girls globally!
 
 
-## Link to the prototype video:
-Click [here](https://youtu.be/JEVIl0_Dbi8)
+## Prototype
+Link to the prototype video: click [here](https://youtu.be/JEVIl0_Dbi8)
