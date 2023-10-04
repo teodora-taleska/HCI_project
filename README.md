@@ -52,10 +52,9 @@ To access Equalita Care, follow these steps:
    cd hci_project
 
    cd front-end
+
    npm install 
-   cd back-end
-   npm install
-   cd ..
+  
    npm start
    ```
 
