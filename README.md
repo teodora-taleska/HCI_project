@@ -57,6 +57,7 @@ To access Equalita Care, follow these steps:
    npm install
    cd ..
    npm start
+   ```
 
 
 
